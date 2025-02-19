@@ -1,0 +1,11 @@
+ini = int(input("Qual o seu saldo inicial da conta ? "))
+opc = int(input(" 1- REALIZAR SAQUE             2- REALIZAR DEPÓSITO  "))
+if opc == 1:
+    saq= float(input("Qual o valor do saque a ser realizado ? "))
+    fin = ini - saq
+    print(f'O seu saldo é igual a {fin}')
+
+if opc == 2:
+    dep = float(input("Qual o valor do depósito a ser realizado ? "))
+    fini = ini+dep
+    print(f'O seu saldo é igual a {fini}')
